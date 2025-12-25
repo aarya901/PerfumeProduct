@@ -2,7 +2,7 @@
   <section class="hero">
     <h1>{{ title }}</h1>
     <p>{{ tagline }}</p>
-    <button @click="changeText">Explore</button>
+    <button>Explore</button>
   </section>
 </template>
 
@@ -22,9 +22,5 @@ const changeText = () => {
   padding:80px;
   background:#f7f3ef;
   text-align:center;
-}
-button {
-  margin-top:20px;
-  padding:10px 16px;
 }
 </style>
